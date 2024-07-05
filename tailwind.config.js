@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'custom-bg': "url('/public/bg1.jpg')",
+        'mobile-bg': "url('/public/img2.png')",
         'bg-color': "#fde4be",
       },
     },
