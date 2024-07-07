@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo.png'
 
 const Header = () => {
   return (
-    <div className="bg-[#fbcb8d] pt-8">   
+    <div className="bg-[#fbcb8d] py-6">   
       <div className='container flex items-center justify-between mx-auto'>
           <div>
               <img src={logo} alt="ilera-logo" className='z-10 w-[50%]' />
@@ -17,7 +17,7 @@ const Header = () => {
                   <li><Link to='#'>Our Network</Link></li>
                   <li><Link to='/contactus'>Contact Us</Link></li>
               </ul>
-              <button className='bg-[#f28201] py-[10px] px-[20px] text-white text-[16px] font-semibold tracking-[0.4px] cursor-pointer rounded-[7px] hover:bg-[#e06f00] transition duration-300'>Enroll Now</button>
+              <button className='bg-[#f28201] py-[10px] px-[20px] text-white text-[16px] font-semibold tracking-[0.4px] cursor-pointer rounded-[7px] hover:bg-[#e06f00] hover:text-black transition duration-300'><Link to='https://selfregistration.lshsportal.com:467/'>Enroll Now</Link></button>
           </div>
       </div>
     </div>
