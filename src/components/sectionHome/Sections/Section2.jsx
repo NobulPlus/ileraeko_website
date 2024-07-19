@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Section2 = () => {
   return (
@@ -11,10 +12,10 @@ const Section2 = () => {
           </div>
           <div className="flex flex-row items-center justify-center space-x-6 md:items-start"> {/* Center items vertically and horizontally on small screens, start on medium screens */}
             <button className="px-6 py-3 mb-4 text-white bg-orange-900 rounded-md shadow-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
-              Start Now
+              <Link to='https://selfregistration.lshsportal.com:467/'>Start Now</Link>
             </button>
             <button className="px-6 py-3 text-white bg-orange-900 rounded-md shadow-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
-              View Plans
+              <Link to='/plan'>View Plans</Link>
             </button>
           </div>
         </div>

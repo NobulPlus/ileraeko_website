@@ -7,6 +7,8 @@ import Section3 from '../../components/sectionHome/Benefit/Section1'
 import Section4 from '../../components/sectionHome/Benefit/Section2'
 import MobileApp from '../../components/sectionHome/Sections/MobileApp'
 import Stat from '../../components/sectionHome/Sections/Stat'
+import Testimony from '../../components/sectionHome/Sections/Testimony'
+import News from '../../News/News'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Section4/>
       <MobileApp/>
       <Stat/>
+      <Testimony/>
+      <News/>
     </>
   )
 }
