@@ -28,13 +28,16 @@ const News = () => {
               />
               <div className="p-6">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{news.title}</h3>
-                <p className="text-gray-700 mb-4">{news.description}</p>
+                <p className="text-gray-700 text-justify mb-4">{news.description}</p>
                 <Link to={`/news/${news.id}`} className="text-orange-500 hover:underline">
                   Read more
                 </Link>
               </div>
             </div>
           ))}
+        </div>
+        <div className='flex justify-center py-4'>
+          <button className='bg-orange-500 py-2 px-4 rounded font-bold hover:text-white'><Link to='/blog'>See More News</Link></button>
         </div>
       </div>
     );

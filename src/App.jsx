@@ -8,22 +8,24 @@ import Footer from './layouts/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Plan from './pages/Plan/Plan'
 import NewsDetail from './News/NewsDetail'
+import ScrollToTop from './components/Common/ScrollToTop'
 
 
 const App = () => {
   return (
     <>
       <Router>
+        <ScrollToTop/>
           <Header />
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/plan" element={<Plan />} />
                   <Route path="/about" element={<About />} />
-                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/contactus" element={<Contact />} />
                   <Route path="/news/:newsId" element={<NewsDetail/>}/>
               </Routes>
           <Footer />
-      </Router>
+      </Router> 
     </>
   )
 }

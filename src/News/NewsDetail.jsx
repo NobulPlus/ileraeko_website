@@ -20,7 +20,7 @@ const NewsDetail = () => {
         <img src={news.image} alt={news.title} className="w-full h-96 object-cover mb-8" />
         <div className="p-6">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">{news.title}</h2>
-          <p className="text-gray-600 mb-8">{news.description}</p>
+          <p className="text-gray-600 text-justify mb-8">{news.description}</p>
           <div className="text-gray-700 text-justify">{paragraphs}</div>
         </div>
       </div>

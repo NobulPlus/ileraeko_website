@@ -9,6 +9,7 @@ import MobileApp from '../../components/sectionHome/Sections/MobileApp'
 import Stat from '../../components/sectionHome/Sections/Stat'
 import Testimony from '../../components/sectionHome/Sections/Testimony'
 import News from '../../News/News'
+import Partners from '../../components/sectionHome/Partners/Partners'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Stat/>
       <Testimony/>
       <News/>
+      <Partners/>
     </>
   )
 }
