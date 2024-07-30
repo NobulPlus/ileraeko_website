@@ -12,7 +12,7 @@ const MobileApp = () => {
             Say goodbye to painful paper processes and protracted wait times. Our platform simplifies the claims process and our app lets employees access healthcare instantly via telemedicine.
           </p>
           <Link 
-            to='/' 
+            to='https://play.google.com/store/apps/details?id=com.lashma.app' 
             className="inline-block px-6 py-3 font-semibold text-orange-700 bg-white rounded-md shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
             ABOUT OUR TECHNOLOGY
           </Link>
