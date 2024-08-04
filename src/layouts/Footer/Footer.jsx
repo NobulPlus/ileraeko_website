@@ -62,7 +62,7 @@ const Footer = () => {
               <h4 className="text-xl font-light text-black">Useful Links</h4>
               <ul className="mt-4 space-y-2 text-black">
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/about'>About</Link></li>
+                <li><Link to='/about'>Contact</Link></li>
                 <li><Link to='/contact'>Help Desk</Link></li>
                 <li><Link to='#'>FAQ</Link></li>
               </ul>
