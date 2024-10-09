@@ -17,7 +17,7 @@ const Stat = () => {
                 <h1 className="text-2xl font-bold text-gray-800 md:text-3xl">Statistics</h1>
               </div>
               <p className="mb-8 leading-relaxed text-gray-600">
-                We have over 390 and still counting Health Care Providers and Over  1.15 million lives registered on the scheme as at the end of <b>September</b> 2024 registered with numbers continuing to grow.</p>
+                We have over 400 and still counting Health Care Providers and Over  1.15 million lives registered on the scheme as at the end of <b>September</b> 2024 registered with numbers continuing to grow.</p>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="p-6 text-center bg-gray-100 rounded-lg md:p-8">
                   <div className="mb-2 text-4xl font-bold text-gray-800 md:text-5xl">
@@ -27,7 +27,7 @@ const Stat = () => {
                 </div>
                 <div className="p-6 text-center bg-gray-100 rounded-lg md:p-8">
                   <div className="mb-2 text-4xl font-bold text-gray-800 md:text-5xl">
-                    {counterState && <CountUp start={0} end={395} duration={5} />}
+                    {counterState && <CountUp start={0} end={401} duration={5} />}
                   </div>
                   <h5 className="text-lg font-semibold text-gray-600">Care Providers</h5>
                 </div>
